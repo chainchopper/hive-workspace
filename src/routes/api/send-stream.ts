@@ -527,7 +527,7 @@ export const Route = createFileRoute('/api/send-stream')({
                     : []
                   // Load persisted history for this session, then append user message.
                   // When the gateway can bind portable chat to a server-side session
-                  // via X-Claude-Session-Id, replaying the entire local transcript on
+                  // via X-Hermes-Session-Id, replaying the entire local transcript on
                   // every turn duplicates prompt context and can trip model limits
                   // on otherwise simple tasks (#405).
                   const persistedMessages = getLocalMessages(portableSessionKey)

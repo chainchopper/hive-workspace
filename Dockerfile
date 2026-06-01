@@ -27,6 +27,7 @@ COPY --chown=workspace:workspace docker/entrypoint.sh /usr/local/bin/docker-entr
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 RUN curl -fsSL https://tailscale.com/install.sh | sh
 RUN mkdir -p /home/workspace/.hermes && chown workspace:workspace /home/workspace
+RUN mkdir -p /app/.runtime && chown workspace:workspace /app/.runtime
 USER workspace
 EXPOSE 3000
 ENV NODE_ENV=production

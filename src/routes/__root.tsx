@@ -131,7 +131,7 @@ export const Route = createRootRoute({
       {
         name: 'description',
         content:
-          'Hermes Agent workspace for chat, tools, files, memory, and jobs.',
+          'THE HIVE — Distributed Agent Swarm Command Center',
       },
       {
         property: 'og:image',

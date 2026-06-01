@@ -3,11 +3,11 @@
 Status: active build sprint
 Owner: Eric / Aurora
 Repo: `outsourc-e/hermes-workspace`
-Scope: HermesWorld inside Hermes Workspace, dashboard/plugin embedded first, standalone later
+Scope: HermesWorld inside THE HIVE, dashboard/plugin embedded first, standalone later
 
 ## Product thesis
 
-HermesWorld is no longer a novelty route. It is the playable layer for Hermes Workspace: a persistent world where humans and agents can move, talk, complete missions, unlock progression, and eventually keep working while the human is away.
+HermesWorld is no longer a novelty route. It is the playable layer for THE HIVE: a persistent world where humans and agents can move, talk, complete missions, unlock progression, and eventually keep working while the human is away.
 
 Keep HermesWorld in `hermes-workspace` for now. The tight coupling to workspace state, sessions, agents, plugins, quests, and dashboard embeds is the feature. A standalone destination can ship as a route/deploy target later without splitting source.
 
@@ -80,7 +80,7 @@ Acceptance criteria:
 
 Deliverables:
 
-- Dashboard plugin and Hermes Workspace plugin remain first-class.
+- Dashboard plugin and THE HIVE plugin remain first-class.
 - `embed=1` mode stays clean and chrome-free where appropriate.
 - Plugin install flow remains git-based and obvious.
 - Admin stays private/plugin-only.

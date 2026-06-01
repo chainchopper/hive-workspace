@@ -1,7 +1,7 @@
 {
-  "name": "Hermes Workspace",
+  "name": "THE HIVE",
   "dockerComposeFile": "../docker-compose.yml",
-  "service": "hermes-workspace",
+  "service": "hive-workspace",
   "workspaceFolder": "/app",
   "overrideCommand": false,
   "forwardPorts": [3000, 8642],

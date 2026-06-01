@@ -2,7 +2,7 @@
 
 Status: start now
 Owner: Eric / Aurora
-Stack: Hermes Workspace + React + Three.js / React Three Fiber
+Stack: THE HIVE + React + Three.js / React Three Fiber
 
 ## Goal
 
@@ -20,7 +20,7 @@ Do **not** switch engines now.
 Stay on:
 - **Three.js**
 - **React Three Fiber**
-- current Hermes Workspace integration
+- current THE HIVE integration
 
 Reason:
 - web shareability matters

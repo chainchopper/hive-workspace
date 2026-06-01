@@ -1,4 +1,4 @@
-# Contributing to Hermes Workspace
+# Contributing to THE HIVE
 
 Thanks for your interest in contributing! Here's how to get started.
 

@@ -1,4 +1,4 @@
-# Hermes Workspace Agent Contract
+# THE HIVE Agent Contract
 
 This workspace uses semantic Hermes swarm workers, not numbered-only lanes. The source of truth for routing is `swarm.yaml`; each worker also has a matching profile under `~/.hermes/profiles/<worker-id>/`, a role skill `<worker-id>-core`, and a wrapper in `~/.local/bin/`.
 

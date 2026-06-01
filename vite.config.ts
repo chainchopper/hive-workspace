@@ -516,7 +516,7 @@ const config = defineConfig(({ mode, command }) => {
         ],
       },
       proxy: {
-        // WebSocket proxy: clients connect to /ws-claude on the Hermes Workspace
+        // WebSocket proxy: clients connect to /ws-claude on the THE HIVE
         // server (any IP/port), which internally forwards to the local server.
         // This means phone/LAN/Docker users never need to reach port 18789 directly.
         '/ws-claude': {

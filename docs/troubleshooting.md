@@ -1,4 +1,4 @@
-# Troubleshooting — Hermes Workspace
+# Troubleshooting — THE HIVE
 
 Common setup issues and how to fix them.
 

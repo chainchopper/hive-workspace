@@ -33,7 +33,7 @@ export const ONBOARDING_STEPS: Array<OnboardingStep> = [
   {
     id: 'welcome',
     title: 'Welcome to THE HIVE',
-    description: 'Your AI workspace powered by Hermes Agent',
+    description: 'Your AI swarm powered by Nirvana',
     icon: Home01Icon,
     iconBg: 'bg-orange-500',
     nextLabel: 'Get Started',

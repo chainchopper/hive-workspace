@@ -414,7 +414,7 @@ export function readAgentUpdateStatus(): ProductUpdateStatus {
   if (!repoPath) {
     return {
       id: 'agent',
-      label: 'Hermes Agent',
+      label: 'THE HIVE',
       installKind: 'unknown',
       version,
       path,
@@ -452,7 +452,7 @@ export function readAgentUpdateStatus(): ProductUpdateStatus {
 
   return {
     id: 'agent',
-    label: 'Hermes Agent',
+    label: 'THE HIVE',
     installKind: 'git',
     version,
     path,
@@ -635,7 +635,7 @@ export function applyAgentUpdate(): ApplyUpdateResult {
   const releaseNotes = [
     {
       product: 'agent' as const,
-      label: 'Hermes Agent',
+      label: 'THE HIVE',
       from: before.currentHead,
       to: after.currentHead,
       commits: readCommits(

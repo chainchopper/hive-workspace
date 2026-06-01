@@ -4,7 +4,7 @@ RUN corepack enable && apt-get update && apt-get install -y --no-install-recomme
 WORKDIR /app
 
 COPY package.json pnpm-lock.yaml* ./
-RUN pnpm install --no-frozen-lockfile --config.ignore-scripts=true && npx esbuild --version
+RUN pnpm install --no-frozen-lockfile --config.ignore-scripts=true && pnpm rebuild esbuild
 
 # Approve esbuild for the build step (needed by Vite/Rollup)
 RUN pnpm approve-builds esbuild

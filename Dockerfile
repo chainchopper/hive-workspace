@@ -1,13 +1,13 @@
 # syntax=docker/dockerfile:1.6
 # Hermes Workspace — production Docker image
-# Publishes to ghcr.io/outsourc-e/hive-workspace
+# Publishes to ghcr.io/chainchopper/hive-workspace
 #
 # Build locally:
 #   docker build -t hive-workspace .
 # Run:
 #   docker run -p 3000:3000 -e HERMES_API_URL=http://host.docker.internal:8642 hive-workspace
 # Or pull pre-built:
-#   docker pull ghcr.io/outsourc-e/hive-workspace:latest
+#   docker pull ghcr.io/chainchopper/hive-workspace:latest
 #
 FROM tianon/gosu:1.17-bookworm AS gosu_source
 # ─── build stage ─────────────────────────────────────────────────────────

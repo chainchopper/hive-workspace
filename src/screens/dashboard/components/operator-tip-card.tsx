@@ -173,7 +173,7 @@ const TIPS: ReadonlyArray<Tip> = [
   {
     id: 'skills-shortcut',
     title: 'Skills are first-class',
-    body: "Hermes loads skills into context on demand. Click any row in Skills Usage to jump to that skill's page and edit its SKILL.md — every change is hot-reloaded.",
+    body: "THE HIVE loads skills into context on demand. Click any row in Skills Usage to jump to that skill's page and edit its SKILL.md — every change is hot-reloaded.",
     tone: 'info',
     cta: 'Open skills',
     href: '/skills',

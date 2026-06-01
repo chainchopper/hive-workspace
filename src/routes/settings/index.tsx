@@ -1321,7 +1321,7 @@ function ClaudeConfigSection({
   if (loading) {
     return (
       <SettingsSection
-        title="Hermes Agent"
+        title="THE HIVE"
         description="Loading configuration..."
         icon={Settings02Icon}
       >
@@ -1336,7 +1336,7 @@ function ClaudeConfigSection({
   if (!data) {
     return (
       <SettingsSection
-        title="Hermes Agent"
+        title="THE HIVE"
         description="Could not load Hermes configuration."
         icon={Settings02Icon}
       >
@@ -2294,7 +2294,7 @@ function ClaudeConfigSection({
 
       <SettingsSection
         title="About"
-        description="Hermes Agent runtime information."
+        description="THE HIVE runtime information."
         icon={Notification03Icon}
       >
         <SettingsRow

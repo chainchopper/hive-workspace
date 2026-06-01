@@ -522,7 +522,7 @@ export function ClaudeOnboarding() {
             <div className="space-y-4 text-center">
               <img
                 src="/claude-avatar.webp"
-                alt="Hermes Agent"
+                alt="THE HIVE"
                 className="mx-auto size-20 rounded-2xl"
                 style={{
                   filter: 'drop-shadow(0 8px 24px rgba(99,102,241,0.3))',

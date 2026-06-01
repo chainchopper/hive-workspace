@@ -1,6 +1,6 @@
 /**
  * Animated p5js-flavored hero canvas for the Playground title screen.
- * Vanilla 2D canvas, no deps, ~60fps, draws an orbiting "Hermes"
+ * 2D canvas, no deps, ~60fps, draws an orbiting "Nirvana"
  * caduceus ring of particles + a soft starfield.
  */
 import { useEffect, useRef } from 'react'

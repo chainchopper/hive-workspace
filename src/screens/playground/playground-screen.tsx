@@ -9,7 +9,7 @@ import { Toast } from './components/toast'
 import { FpsCounter } from './components/fps-counter'
 import { KeyboardShortcutsOverlay } from './components/keyboard-shortcuts-overlay'
 import { PhotosensitiveWarningSplash } from './components/photosensitive-warning-splash'
-import { useHermesWorldSettings } from './components/hermesworld-settings'
+import { useHiveWorldSettings } from './components/hermesworld-settings'
 import { usePlaygroundRpg } from './hooks/use-playground-rpg'
 import { playgroundAudio, usePlaygroundAudioMuted } from './lib/playground-audio'
 import { autoNarrateWorld, cancelNarration, isNarrationMuted, narrateWorldNow, setNarrationMuted } from './lib/playground-narration'
@@ -71,7 +71,7 @@ class PlaygroundErrorBoundary extends Component<
 export function PlaygroundScreen() {
   const rpg = usePlaygroundRpg()
   const audioMuted = usePlaygroundAudioMuted()
-  const [settings] = useHermesWorldSettings()
+  const [settings] = useHiveWorldSettings()
   const [launched, setLaunched] = useState(false)
   const [world, setWorld] = useState<PlaygroundWorldId>(rpg.state.playerProfile.lastZone)
   const [dialogNpc, setDialogNpc] = useState<string | null>(null)
@@ -981,7 +981,7 @@ function TitleScreen({
             </div>
             <img
               src="/assets/hermesworld/art/hermesworld-logo-horizontal.svg"
-              alt="HermesWorld"
+              alt="HiveWorld"
               width={760}
               height={228}
               fetchPriority="high"
@@ -1082,7 +1082,7 @@ function TitleScreen({
             <div className="grid gap-2 text-[12px] sm:grid-cols-3">
               <PremiumFeatureCard icon="❁" title="Six Worlds" desc="Training Grounds → Forge → Arena" />
               <PremiumFeatureCard icon="⛔" title="Live Multiplayer" desc="Walk with builders worldwide" />
-              <PremiumFeatureCard icon="🔮" title="Hermes Skills" desc="Promptcraft · Memory · Diplomacy" />
+              <PremiumFeatureCard icon="🔮" title="Hive Skills" desc="Promptcraft · Memory · Diplomacy" />
             </div>
           </div>
 
@@ -1547,7 +1547,7 @@ function RouteFallback() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-[#050b12] p-6 text-white">
       <div className="max-w-[520px] rounded-3xl border border-amber-300/25 bg-[#070b14] p-5 shadow-2xl">
-        <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-amber-200/80">HermesWorld</div>
+        <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-amber-200/80">HiveWorld</div>
         <div className="mt-1 text-xl font-extrabold">Route fallback active</div>
         <p className="mt-3 text-sm text-white/75">
           The 3D route failed to render in this browser context. Reload the page or open `/agora` for the lightweight fallback.

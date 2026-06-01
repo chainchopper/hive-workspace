@@ -71,7 +71,7 @@ export function ChatEmptyState({
         <div className="relative mb-6">
           <img
             src="/claude-avatar.webp"
-            alt="Hermes Agent"
+            alt="THE HIVE"
             className="relative size-20 rounded-md"
             style={{
               border: '1px solid var(--theme-border)',

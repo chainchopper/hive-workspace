@@ -1,7 +1,7 @@
 {
   "name": "THE HIVE",
-  "short_name": "Hermes",
-  "description": "Installable control surface for Hermes Agent chat, tools, files, memory, jobs, and agent workflows.",
+  "short_name": "THE HIVE",
+  "description": "Distributed Agent Swarm Command Center, tools, files, memory, jobs, and agent workflows.",
   "id": "/?app=hive-workspace",
   "start_url": "/?source=pwa",
   "scope": "/",

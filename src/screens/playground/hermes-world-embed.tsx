@@ -3,7 +3,7 @@ import { WaveChatPanelsShowcase } from './components/wave-chat-panels-showcase'
 
 const HERMES_WORLD_ORIGIN = 'https://hermes-world.ai'
 
-export function HermesWorldEmbed() {
+export function HiveWorldEmbed() {
   const [loaded, setLoaded] = useState(false)
   const showPanelShowcase = typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('panels') === 'wave-chat'
   const src = useMemo(() => {
@@ -23,13 +23,13 @@ export function HermesWorldEmbed() {
         <div className="absolute inset-0 flex items-center justify-center bg-[radial-gradient(circle_at_50%_35%,rgba(168,85,247,.24),transparent_48%),#050015]">
           <div className="rounded-3xl border border-white/12 bg-black/35 px-6 py-5 text-center shadow-2xl backdrop-blur-xl">
             <div className="text-xs font-bold uppercase tracking-[0.24em] text-cyan-200/70">THE HIVE</div>
-            <div className="mt-2 text-2xl font-black tracking-tight">Opening HermesWorld…</div>
+            <div className="mt-2 text-2xl font-black tracking-tight">Opening HiveWorld…</div>
             <div className="mt-2 text-sm text-white/58">Runtime hosted by hermes-world.ai</div>
           </div>
         </div>
       )}
       <iframe
-        title="HermesWorld"
+        title="HiveWorld"
         src={src}
         className="h-full w-full border-0 bg-[#050015]"
         allow="fullscreen; clipboard-read; clipboard-write; gamepad"

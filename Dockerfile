@@ -25,6 +25,7 @@ COPY --from=build --chown=workspace:workspace /app/skills ./skills
 COPY --chown=workspace:workspace docker/entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
 RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+RUN curl -fsSL https://tailscale.com/install.sh | sh
 USER workspace
 EXPOSE 3000
 ENV NODE_ENV=production
